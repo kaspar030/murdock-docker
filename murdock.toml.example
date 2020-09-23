@@ -1,0 +1,15 @@
+# base url
+http_root = "https://ci.riot-labs.de/data"
+
+# Ogithub personal access token
+github_apikey = "put your token here"
+
+repos = ["kaspar030/RIOT" ]
+fail_labels = [ "NEEDS SQUASHING", "Waiting For Other PR" ]
+ci_ready_label = "CI: ready for build"
+set_status = true
+
+# don't change these for dockerized murdock
+data_dir = "/murdock/data"
+scripts_dir = "/murdock/scripts"
+port=3000
