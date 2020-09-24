@@ -48,7 +48,7 @@ volumes:
     driver_opts:
       o: bind
       type: none
-      device: /srv/murdock/murdock
+      device: /srv/murdock
   murdock-data:
     driver: local
     driver_opts:
